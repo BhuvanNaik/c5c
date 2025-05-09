@@ -39,10 +39,10 @@ const TechStack = () => {
           {technologies.map((tech, index) => (
             <div 
               key={index}
-              className="bg-gradient-to-br from-[#6A00A0] to-[#9400D8] p-[1px] rounded-lg"
+              className="bg-gradient-to-br from-[#FF69B4] to-[#8B458B] p-[1px] rounded-lg"
             >
               <div className="flex flex-col items-center p-4 bg-black rounded-lg text-center h-full">
-                <div className="mb-3 p-3 bg-[#4B0082] rounded-full text-[#9400D8]">
+                <div className="mb-3 p-3 bg-[#8B458B] rounded-full text-[#FFB6C1]">
                   {tech.icon}
                 </div>
                 <span className="text-sm font-medium text-white">{tech.name}</span>
