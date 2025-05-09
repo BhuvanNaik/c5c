@@ -15,7 +15,7 @@ const Hero = () => {
               <p className="text-sm">AI-Powered Financial Management for Small Businesses</p>
             </div>
             
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-[#FF69B4] to-[#FFB6C1] text-transparent bg-clip-text">
+            <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-[#d2e3f0] to-[#9ab7d9] text-transparent bg-clip-text">
               Track,<br />
               Predict and<br />
               Optimize
@@ -26,10 +26,10 @@ const Hero = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
-              <button className="px-6 py-3 bg-gradient-to-r from-[#FF69B4] to-[#8B458B] rounded-full font-medium hover:opacity-90 transition-opacity">
+              <button className="px-6 py-3 bg-gradient-to-r from-[#d2e3f0] to-[#889eb7] rounded-full font-medium hover:opacity-90 transition-opacity">
                 Start Free
               </button>
-              <button className="px-6 py-3 border border-[#FF69B4] rounded-full font-medium hover:bg-[#8B458B] transition-colors">
+              <button className="px-6 py-3 border border-[#d2e3f0] rounded-full font-medium hover:bg-[#889eb7] transition-colors">
                 Explore Demo
               </button>
             </div>
@@ -37,49 +37,49 @@ const Hero = () => {
           
           <div className="md:w-1/2 flex justify-center md:justify-end relative">
             <div className="relative">
-              <div className="absolute -left-24 top-12 bg-[#8B458B] rounded-lg px-4 py-2 shadow-lg flex items-center text-white">
-                <div className="w-8 h-8 bg-[#FF69B4] rounded-full flex items-center justify-center text-white mr-2">
+              <div className="absolute -left-24 top-12 bg-[#889eb7] rounded-lg px-4 py-2 shadow-lg flex items-center text-white">
+                <div className="w-8 h-8 bg-[#d2e3f0] rounded-full flex items-center justify-center text-black mr-2">
                   <span className="text-xs">£</span>
                 </div>
                 <span className="font-medium">2,000 GBP</span>
               </div>
               
-              <div className="absolute -right-24 top-0 bg-[#8B458B] rounded-lg px-4 py-2 shadow-lg flex items-center text-white">
-                <div className="w-8 h-8 bg-[#FF69B4] rounded-full flex items-center justify-center text-white mr-2">
+              <div className="absolute -right-24 top-0 bg-[#889eb7] rounded-lg px-4 py-2 shadow-lg flex items-center text-white">
+                <div className="w-8 h-8 bg-[#d2e3f0] rounded-full flex items-center justify-center text-black mr-2">
                   <span className="text-xs">$</span>
                 </div>
                 <span className="font-medium">3,400 USD</span>
               </div>
               
-              <div className="bg-gradient-to-br from-[#FF69B4] to-[#8B458B] rounded-3xl p-1 shadow-xl">
+              <div className="bg-gradient-to-br from-[#d2e3f0] to-[#889eb7] rounded-3xl p-1 shadow-xl">
                 <div className="bg-black rounded-3xl overflow-hidden w-64 md:w-72">
-                  <div className="bg-[#8B458B] p-4 border-b border-[#FF69B4]">
+                  <div className="bg-[#889eb7] p-4 border-b border-[#d2e3f0]">
                     <p className="text-white font-medium">Send Payment</p>
                   </div>
                   
                   <div className="p-4 text-white">
                     <div className="mb-4">
                       <p className="text-xs text-gray-300 mb-1">PAYMENT AMOUNT</p>
-                      <div className="flex justify-between items-center bg-[#8B458B] p-2 rounded-lg">
+                      <div className="flex justify-between items-center bg-[#889eb7] p-2 rounded-lg">
                         <span className="font-medium">2,000</span>
-                        <span className="text-sm bg-[#FF69B4] px-2 py-1 rounded">GBP</span>
+                        <span className="text-sm bg-[#d2e3f0] text-black px-2 py-1 rounded">GBP</span>
                       </div>
                     </div>
                     
                     <div className="mb-4">
                       <p className="text-xs text-gray-300 mb-1">RECIPIENT RECEIVES</p>
-                      <div className="flex justify-between items-center bg-[#8B458B] p-2 rounded-lg">
+                      <div className="flex justify-between items-center bg-[#889eb7] p-2 rounded-lg">
                         <span className="font-medium">3,400</span>
-                        <span className="text-sm bg-[#FF69B4] px-2 py-1 rounded">USD</span>
+                        <span className="text-sm bg-[#d2e3f0] text-black px-2 py-1 rounded">USD</span>
                       </div>
                     </div>
                     
-                    <div className="mb-4 bg-[#8B458B] p-2 rounded-lg flex justify-between items-center">
+                    <div className="mb-4 bg-[#889eb7] p-2 rounded-lg flex justify-between items-center">
                       <span className="text-sm">Processing fee</span>
                       <span className="text-sm font-medium">1.50% only</span>
                     </div>
                     
-                    <button className="w-full bg-gradient-to-r from-[#FF69B4] to-[#8B458B] py-3 rounded-full hover:opacity-90 transition-opacity">
+                    <button className="w-full bg-gradient-to-r from-[#d2e3f0] to-[#889eb7] py-3 rounded-full text-black hover:opacity-90 transition-opacity">
                       Send Instantly
                     </button>
                   </div>
