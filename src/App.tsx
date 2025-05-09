@@ -9,7 +9,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-[#182e4d] to-black">
+    <div className="min-h-screen bg-gradient-to-b from-[#4B0082] to-black">
       <Navbar />
       <Hero />
       <ProblemStatement />

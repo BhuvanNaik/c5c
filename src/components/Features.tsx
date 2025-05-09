@@ -45,11 +45,11 @@ const Features = () => {
           {features.map((feature, index) => (
             <div 
               key={index} 
-              className="bg-gradient-to-br from-[#094089] to-[#289dbc] p-[1px] rounded-xl"
+              className="bg-gradient-to-br from-[#6A00A0] to-[#9400D8] p-[1px] rounded-xl"
             >
               <div className="bg-black p-6 rounded-xl h-full">
                 <div className="flex items-center mb-4">
-                  <div className="mr-4 text-[#289dbc]">
+                  <div className="mr-4 text-[#9400D8]">
                     {feature.icon}
                   </div>
                   <h3 className="text-xl font-semibold text-white">{feature.title}</h3>
