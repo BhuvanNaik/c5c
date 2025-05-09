@@ -1,5 +1,5 @@
 import React from 'react';
-import { Server, Database, MessageCircle, Circle as CircleStack, MessageSquareShare, CreditCard } from 'lucide-react';
+import { Server, Database, MessageCircle, MessageSquareShare, CreditCard } from 'lucide-react';
 import BrainCircuit from './BrainCircuit';
 
 const TechStack = () => {
@@ -39,10 +39,10 @@ const TechStack = () => {
           {technologies.map((tech, index) => (
             <div 
               key={index}
-              className="bg-gradient-to-br from-[#558B2F] to-[#41691A] p-[1px] rounded-lg"
+              className="bg-gradient-to-br from-[#094089] to-[#289dbc] p-[1px] rounded-lg"
             >
               <div className="flex flex-col items-center p-4 bg-black rounded-lg text-center h-full">
-                <div className="mb-3 p-3 bg-[#172D00] rounded-full text-[#558B2F]">
+                <div className="mb-3 p-3 bg-[#182e4d] rounded-full text-[#289dbc]">
                   {tech.icon}
                 </div>
                 <span className="text-sm font-medium text-white">{tech.name}</span>
@@ -55,4 +55,4 @@ const TechStack = () => {
   );
 };
 
-export default TechStack
+export default TechStack;

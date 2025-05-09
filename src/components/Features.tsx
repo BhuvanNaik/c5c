@@ -1,5 +1,6 @@
 import React from 'react';
-import { FileText, Users, MessageSquare, TrendingUp, BrainCircuit, AlertTriangle } from 'lucide-react';
+import { FileText, Users, MessageSquare, TrendingUp, AlertTriangle } from 'lucide-react';
+import BrainCircuit from './BrainCircuit';
 
 const Features = () => {
   const features = [
@@ -44,11 +45,11 @@ const Features = () => {
           {features.map((feature, index) => (
             <div 
               key={index} 
-              className="bg-gradient-to-br from-[#558B2F] to-[#41691A] p-[1px] rounded-xl"
+              className="bg-gradient-to-br from-[#094089] to-[#289dbc] p-[1px] rounded-xl"
             >
               <div className="bg-black p-6 rounded-xl h-full">
                 <div className="flex items-center mb-4">
-                  <div className="mr-4 text-[#558B2F]">
+                  <div className="mr-4 text-[#289dbc]">
                     {feature.icon}
                   </div>
                   <h3 className="text-xl font-semibold text-white">{feature.title}</h3>
@@ -63,4 +64,4 @@ const Features = () => {
   );
 };
 
-export default Features
+export default Features;

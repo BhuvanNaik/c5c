@@ -34,10 +34,10 @@ const TargetUsers = () => {
           {users.map((user, index) => (
             <div 
               key={index} 
-              className="bg-gradient-to-br from-[#558B2F] to-[#41691A] p-[1px] rounded-xl"
+              className="bg-gradient-to-br from-[#094089] to-[#289dbc] p-[1px] rounded-xl"
             >
               <div className="bg-black p-6 rounded-xl h-full">
-                <div className="mb-4 text-[#558B2F]">{user.icon}</div>
+                <div className="mb-4 text-[#289dbc]">{user.icon}</div>
                 <h3 className="text-xl font-semibold mb-2 text-white">{user.title}</h3>
                 <p className="text-gray-300">{user.description}</p>
               </div>
@@ -49,4 +49,4 @@ const TargetUsers = () => {
   );
 };
 
-export default TargetUsers
+export default TargetUsers;
